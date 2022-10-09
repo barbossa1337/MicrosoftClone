@@ -255,3 +255,47 @@ body, html {
     color: #0067b8;
     margin-left: 5px;
 }
+
+.out-container {
+    width: 1700px;
+    height: 600px;
+    margin-top: 100px;
+    padding: 0 100px;
+    background: url("/images/phone-bg.webp");
+    position: relative;
+}
+
+.out-content-container {
+    position: absolute;
+    width: 475px;
+    height: 230px;
+    top: 200px;
+}
+
+.out-header {
+    font-weight: 600;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.2;
+    font-size: 2.4rem;
+}
+
+.out-text {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.out-link {
+    background-color: #0067b8;
+    color: #fff;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    border: 0.125rem solid transparent;
+    border-radius: 0.125rem;
+    text-decoration: none;
+    padding: 0.625rem 0.75rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.out-link:hover {
+    background-color: #0067a9;
+}

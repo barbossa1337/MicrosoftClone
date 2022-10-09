@@ -83,6 +83,7 @@ body, html {
 .header-icon {
     margin-left: 5px;
     font-size: 16px;
+    font-weight: lighter;
 }
 
 .win-container {
@@ -139,19 +140,48 @@ body, html {
 .slide-controllers {
     width: 100%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .slider-icons {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-right: 20px;
     cursor: pointer;
 }
 
 .dot {
-    font-size: 1rem;
+    font-size: 0.75rem;
     cursor: auto;
+}
+
+.content-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.content-img {
+    width: 40px;
+    height: 40px;
+}
+
+.content-link {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #0067b8;
+    font-weight: 600!important;
+    margin-top: 10px;
 }
